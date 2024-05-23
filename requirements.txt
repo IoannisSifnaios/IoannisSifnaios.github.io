@@ -13,4 +13,3 @@ folium
 xarray
 pvlib
 lxml
-rich
