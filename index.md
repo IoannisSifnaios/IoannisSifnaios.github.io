@@ -1,4 +1,4 @@
-# Adam R. Jensen - About Me
+# Ioannis Sifnaios - About Me
 
 Great to see that you have stumbled upon my blog!
 
