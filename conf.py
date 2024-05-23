@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Predictably Sunny"
-copyright = "2021, Adam R. Jensen"
-author = "Adam R. Jensen"
+project = "Blog"
+copyright = "2024, Ioannis Sifnaios"
+author = "Ioannis Sifnaios"
 
 
 # -- General ABlog Options ----------------------------------------------------
