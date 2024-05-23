@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>http://predictablysunny.com/</id>
-  <title>Predictably Sunny</title>
-  <updated>2024-05-23T15:37:47.015028+00:00</updated>
-  <link href="http://predictablysunny.com/"/>
-  <link href="http://predictablysunny.com/blog/atom.xml" rel="self"/>
+  <id>https://ioannissifnaios.github.io/</id>
+  <title>Blog</title>
+  <updated>2024-05-23T15:46:04.878960+00:00</updated>
+  <link href="https://ioannissifnaios.github.io/"/>
+  <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
   <entry>
-    <id>http://predictablysunny.com/posts/gsoc_project_summary/</id>
+    <id>https://ioannissifnaios.github.io/posts/gsoc_project_summary/</id>
     <title>Summary of Google Summer of Code with pvlib</title>
     <updated>2021-08-22T00:00:00+00:00</updated>
     <author>
@@ -16,7 +16,7 @@
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;The coding period of this year’s Google Summer of Code (GSoC) is officially over, and it’s time to take a step back and evaluate the experience. For those of you who might not know, I’ve been working on extending pvlib’s iotools for the past 10 weeks, which I described in this &lt;a class="reference internal" href="../posts/gsoc_project_intro/"&gt;&lt;span class="doc std std-doc"&gt;blog post&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/p&gt;
 </content>
-    <link href="http://predictablysunny.com/posts/gsoc_project_summary/"/>
+    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_summary/"/>
     <summary>The coding period of this year’s Google Summer of Code (GSoC) is officially over, and it’s time to take a step back and evaluate the experience. For those of you who might not know, I’ve been working on extending pvlib’s iotools for the past 10 weeks, which I described in this blog post.</summary>
     <category term="gsoc" label="gsoc"/>
     <category term="openscience" label="open science"/>
@@ -25,17 +25,17 @@
     <published>2021-08-22T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>http://predictablysunny.com/posts/gsoc_project_intro/</id>
+    <id>https://ioannissifnaios.github.io/posts/gsoc_project_intro/</id>
     <title>pvlib - a one-stop source for solar resource data</title>
     <updated>2021-06-10T00:00:00+00:00</updated>
     <author>
       <name>Adam R. Jensen</name>
     </author>
     <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;This title at least represents the aim of my &lt;a class="reference external" href="https://summerofcode.withgoogle.com/about/"&gt;Google Summer of Code (GSoC)&lt;/a&gt; project that I will be completing during the next 10 weeks. In short, I’ll be extending &lt;a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/"&gt;pvlib python’s&lt;/a&gt; current iotools functionalities to provide users with easy and standardized access to all major open-source solar resource databases.
-&lt;img alt="gsoc and pvlib logo" src="http://predictablysunny.com/_images/gsoc_at_pvlib.png" /&gt;&lt;/p&gt;
+&lt;img alt="gsoc and pvlib logo" src="https://ioannissifnaios.github.io/_images/gsoc_at_pvlib.png" /&gt;&lt;/p&gt;
 &lt;/p&gt;
 </content>
-    <link href="http://predictablysunny.com/posts/gsoc_project_intro/"/>
+    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_intro/"/>
     <summary>This title at least represents the aim of my Google Summer of Code (GSoC) project that I will be completing during the next 10 weeks. In short, I’ll be extending pvlib python’s current iotools functionalities to provide users with easy and standardized access to all major open-source solar resource databases.
 gsoc and pvlib logo</summary>
     <category term="gsoc" label="gsoc"/>
