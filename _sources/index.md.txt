@@ -1,10 +1,8 @@
-# Ioannis Sifnaios - About Me
+## Hello!
 
-Great to see that you have stumbled upon my blog!
+I’m a postdoctoral researcher at the Technical University of Denmark (DTU), working on modeling and assessment of solar energy systems and energy storage.
 
-I'm a research scientist at the Technical University of Denmark (DTU), working on modeling and assessment of solar energy systems and the solar resource.
-
-On this blog, I'll share some of the many interesting things I work on, including tips and tricks to working with solar resource data in Python.
+In this blog, I'll share my experience as a participant in the Google Summer Of Code (GSOC).
 
 ## Recent posts
 
