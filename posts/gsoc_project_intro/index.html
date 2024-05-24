@@ -8,19 +8,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<meta property="og:title" content="pvlib - a one-stop source for solar resource data" />
+<meta property="og:title" content="Google Summer Of Code 2024" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="posts/gsoc_project_intro/" />
 <meta property="og:site_name" content="Blog" />
-<meta property="og:description" content="This title at least represents the aim of my Google Summer of Code (GSoC) project that I will be completing during the next 10 weeks. In short, I’ll be extending pvlib python’s current iotools func..." />
+<meta property="og:description" content="I am happy to announce that for the summer of 2024, I will be participating in the Google Summer of Code (GSoC), where I will be working on a project titled Floating Solar - Enabling modeling of fl..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_project_intro_b6beb742.png" />
-<meta property="og:image:alt" content="This title at least represents the aim of my Google Summer of Code (GSoC) project that I will be completing during the next 10 weeks. In short, I’ll be exten..." />
-<meta name="description" content="This title at least represents the aim of my Google Summer of Code (GSoC) project that I will be completing during the next 10 weeks. In short, I’ll be extending pvlib python’s current iotools func..." />
+<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_project_intro_b0f0b547.png" />
+<meta property="og:image:alt" content="I am happy to announce that for the summer of 2024, I will be participating in the Google Summer of Code (GSoC), where I will be working on a project titled..." />
+<meta name="description" content="I am happy to announce that for the summer of 2024, I will be participating in the Google Summer of Code (GSoC), where I will be working on a project titled Floating Solar - Enabling modeling of fl..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>pvlib - a one-stop source for solar resource data &#8212; Blog</title>
+    <title>Google Summer Of Code 2024 &#8212; Blog</title>
   
   
   
@@ -360,7 +360,7 @@
   
   <i class="fa fa-calendar"></i>
   
-  <span>10 June 2021</span>
+  <span>24 May 2024</span>
   
 </h2>
 <ul>
@@ -375,7 +375,7 @@
     </span>
   
   
-  <a href="../../blog/author/adam-r-jensen/">Adam R. Jensen</a>
+  <a href="../../blog/author/ioannis-sifnaios/">Ioannis Sifnaios</a>
   
   
   
@@ -475,7 +475,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">pvlib - a...</li>
+    <li class="breadcrumb-item active" aria-current="page">Google...</li>
   </ul>
 </nav>
 </div>
@@ -492,44 +492,21 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-<section id="pvlib-a-one-stop-source-for-solar-resource-data">
-<h1>pvlib - a one-stop source for solar resource data<a class="headerlink" href="#pvlib-a-one-stop-source-for-solar-resource-data" title="Permalink to this heading">#</a></h1>
-<p>This title at least represents the aim of my <a class="reference external" href="https://summerofcode.withgoogle.com/about/">Google Summer of Code (GSoC)</a> project that I will be completing during the next 10 weeks. In short, I’ll be extending <a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/">pvlib python’s</a> current iotools functionalities to provide users with easy and standardized access to all major open-source solar resource databases.
+<section id="google-summer-of-code-2024">
+<h1>Google Summer Of Code 2024<a class="headerlink" href="#google-summer-of-code-2024" title="Permalink to this heading">#</a></h1>
+<p>I am happy to announce that for the summer of 2024, I will be participating in the <a class="reference external" href="https://summerofcode.withgoogle.com/about/">Google Summer of Code (GSoC)</a>, where I will be working on a project titled <em>Floating Solar - Enabling modeling of floating PV with pvlib</em>. As part of my project, I will be adding floating PV temperature models in the <a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/">pvlib python’s library</a>.
 <img alt="gsoc and pvlib logo" src="../../_images/gsoc_at_pvlib.png" /></p>
-<p>And why would I do that, you ask? Well, first of all, I am a bit of a solar geek, but my primary motivation comes from frustration over how unnecessarily difficult it is to obtain good solar resource data.
-Fortunately, there is a lot of high-quality data out there, free for anyone to use! However, it currently requires a great deal of time and technical expertise to obtain the data, limiting its wider use.</p>
-<p>Given that solar irradiance is the most important input to predicting solar energy yield, using suboptimal data is kinda a big deal. Solar resource data is not only essential to the design stage but is also crucial for benchmarking solar radiation models (decomposition models, forecasting techniques, etc.) and assessing system performance.</p>
-<p>pvlib python already has a module called <code class="docutils literal notranslate"><span class="pre">iotools</span></code> for retrieving/reading solar data, but it currently only supports access to a few of the many available sources and covers a limited part of the world.</p>
-<section id="data-sources">
-<h2>Data sources<a class="headerlink" href="#data-sources" title="Permalink to this heading">#</a></h2>
-<p>During the project, I’ll be adding functions to the iotools module within pvlib python, that will allow users to retrieve data from the following datasets (in addition to the existing ones):</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://bsrn.awi.de/">Baseline Surface Radiation Network (BSRN)</a></p></li>
-<li><p><a class="reference external" href="https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5">ERA5 from ECMWF</a></p></li>
-<li><p><a class="reference external" href="https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/">MERRA2 from NASA</a></p></li>
-<li><p><a class="reference external" href="https://ec.europa.eu/jrc/en/PVGIS/tools/hourly-radiation">PVGIS hourly data</a></p></li>
-<li><p><a class="reference external" href="http://www.soda-pro.com/web-services/radiation/cams-mcclear">CAMS McClear</a></p></li>
-<li><p><a class="reference external" href="http://www.soda-pro.com/web-services/radiation/cams-radiation-service/info">CAMS Radiation</a></p></li>
-<li><p><a class="reference external" href="http://climate.onebuilding.org/">Climate One Building</a></p></li>
-</ul>
-<p>Each of the above datasets have their own strengths and differs by geographical coverage, time resolution, and accuracy. If this sounds a bit overwhelming, fret not; this will be the topic of a later blog post.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>You can already check out some of the existing pvlib functions for retrieving data. For example, satellite-derived solar irradiance and clear-sky data from <a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.iotools.get_cams.html">CAMS</a> and ground measurements from the <a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.iotools.get_srml.html">Solar Radiation Monitoring Laboratory (SRML) monitoring stations</a>.</p>
-</div>
-<p>If you think that I’ve missed any important open-source datasets, please let me know in the comments section!</p>
-</section>
-<section id="google-summer-of-code">
-<h2>Google Summer of Code<a class="headerlink" href="#google-summer-of-code" title="Permalink to this heading">#</a></h2>
-<p>You might be wondering at this point what Google has to do with all this and you’d be right to do so. Google is not directly involved with the project but rather is the facilitator and sponsor of Google Summer of Code (GSoC) - a global program that aims at getting students to write code and take an active part in the open-source community.</p>
-<p>During the 10-week program, students are paired with a mentor from a pre-qualified open-source organization, who guides the student through a specific project. This is where <a class="reference external" href="https://github.com/kandersolar">Kevin Anderson</a> comes into the picture. Kevin is one of the core pvlib developers, and each week volunteers a few hours of his time where I get to pick his brain. He is truly a phenomenal guy, and he’s really the reason why this project exists.</p>
-<p>If you’re interested, you can find my official GSoC project abstract <a class="reference external" href="https://summerofcode.withgoogle.com/projects/#6071460558274560">here</a>.</p>
+<p>I am very excited to work on this project since floating PV is an up-and-coming technology with several benefits compared to land-based PV, e.g., improved land use, reduced water evaporation, and enhanced energy production. However, accurate performance modeling of floating PV is a bit of a tricky business because the panels are placed on water.</p>
+<p>Thankfully, multiple research groups have tried to tackle this issue, and they have come up with various models and approaches for estimating the yield of floating PV farms. However, these functions are not available in pvlib python (or any other commercial or open-source software). But this is about to change!</p>
+<section id="what-is-google-summer-of-code">
+<h2>What is Google Summer of Code?<a class="headerlink" href="#what-is-google-summer-of-code" title="Permalink to this heading">#</a></h2>
+<p>Google Summer of Code is a global, online program aiming to bring new contributors into open-source software development. As the name suggests, it is facilitated by Google (although Google is not directly involved with the project). During the program, students are guided by mentors from a pre-qualified open-source organization on a specific project.</p>
+<p>I am lucky enough to be mentored by two of the core pvlib developers, <a class="reference external" href="https://github.com/AdamRJensen">Adam R. Jensen</a> and <a class="reference external" href="https://github.com/kandersolar">Kevin Anderson</a>, who I would like to thank for the time they will dedicate into this project. The plan is to interact with them on a weekly basis, trying to learn as much as possible!</p>
+<p>If you’re interested, you can find my official GSoC project abstract <a class="reference external" href="https://summerofcode.withgoogle.com/myprojects/details/Z32UN1Qx">here</a>.</p>
 </section>
 <section id="whats-next">
 <h2>What’s next?<a class="headerlink" href="#whats-next" title="Permalink to this heading">#</a></h2>
-<p>I just completed adding <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/1175">CAMS support to pvlib python</a>. CAMS provides satellite-derived solar radiation for Europe and Africa. But not only that, CAMS also lets you retrieve McClear clear-sky data for anywhere in the world. Hint: McClear is based on actual aerosol data and probably provides the best clear-sky data you will ever use.</p>
-<p>Now that this has been completed, I have moved on to writing tests for the functions I’ve written for retrieving hourly data from PVGIS.</p>
-<p>Stay tuned for more news on how you can easily get your hands on solar radiation data, and leave a comment below if you have any questions about getting started with retrieving CAMS data.</p>
+<p>My plan is to post my progress on the project weekly. So, if you are interested in modeling floating PV, stay tuned!</p>
 </section>
 </section>
 
@@ -541,17 +518,17 @@ Fortunately, there is a lot of high-quality data out there, free for anyone to u
 <div class="section ablog__prev-next">
   <span class="ablog__prev">
     
+    
+    <a href="../gsoc_project_summary/">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Summary of Google Summer of Code with pvlib</span>
+    </a>
+    
   </span>
   <span class="ablog__spacer">&nbsp;</span>
   <span class="ablog__next">
-    
-    
-    <a href="../gsoc_project_summary/">
-      <span>Summary of Google Summer of Code with pvlib</span>
-      
-      <i class="fa fa-arrow-circle-right" ></i>
-      
-    </a>
     
   </span>
 </div>
@@ -587,8 +564,7 @@ Fortunately, there is a lot of high-quality data out there, free for anyone to u
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-summer-of-code">Google Summer of Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-google-summer-of-code">What is Google Summer of Code?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#whats-next">What’s next?</a></li>
 </ul>
   </nav></div>

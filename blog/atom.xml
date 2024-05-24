@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-05-24T13:32:14.133260+00:00</updated>
+  <updated>2024-05-24T14:17:02.374724+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
+  <entry>
+    <id>https://ioannissifnaios.github.io/posts/gsoc_project_intro/</id>
+    <title>Google Summer Of Code 2024</title>
+    <updated>2024-05-24T00:00:00+00:00</updated>
+    <author>
+      <name>Ioannis Sifnaios</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;I am happy to announce that for the summer of 2024, I will be participating in the &lt;a class="reference external" href="https://summerofcode.withgoogle.com/about/"&gt;Google Summer of Code (GSoC)&lt;/a&gt;, where I will be working on a project titled &lt;em&gt;Floating Solar - Enabling modeling of floating PV with pvlib&lt;/em&gt;. As part of my project, I will be adding floating PV temperature models in the &lt;a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/"&gt;pvlib python’s library&lt;/a&gt;.
+&lt;img alt="gsoc and pvlib logo" src="https://ioannissifnaios.github.io/_images/gsoc_at_pvlib.png" /&gt;&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_intro/"/>
+    <summary>I am happy to announce that for the summer of 2024, I will be participating in the Google Summer of Code (GSoC), where I will be working on a project titled Floating Solar - Enabling modeling of floating PV with pvlib. As part of my project, I will be adding floating PV temperature models in the pvlib python’s library.
+gsoc and pvlib logo</summary>
+    <category term="gsoc" label="gsoc"/>
+    <category term="openscience" label="open science"/>
+    <category term="pvlib" label="pvlib"/>
+    <category term="solar" label="solar"/>
+    <published>2024-05-24T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://ioannissifnaios.github.io/posts/gsoc_project_summary/</id>
     <title>Summary of Google Summer of Code with pvlib</title>
@@ -23,25 +43,5 @@
     <category term="pvlib" label="pvlib"/>
     <category term="solar" label="solar"/>
     <published>2021-08-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ioannissifnaios.github.io/posts/gsoc_project_intro/</id>
-    <title>pvlib - a one-stop source for solar resource data</title>
-    <updated>2021-06-10T00:00:00+00:00</updated>
-    <author>
-      <name>Adam R. Jensen</name>
-    </author>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;This title at least represents the aim of my &lt;a class="reference external" href="https://summerofcode.withgoogle.com/about/"&gt;Google Summer of Code (GSoC)&lt;/a&gt; project that I will be completing during the next 10 weeks. In short, I’ll be extending &lt;a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/"&gt;pvlib python’s&lt;/a&gt; current iotools functionalities to provide users with easy and standardized access to all major open-source solar resource databases.
-&lt;img alt="gsoc and pvlib logo" src="https://ioannissifnaios.github.io/_images/gsoc_at_pvlib.png" /&gt;&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_intro/"/>
-    <summary>This title at least represents the aim of my Google Summer of Code (GSoC) project that I will be completing during the next 10 weeks. In short, I’ll be extending pvlib python’s current iotools functionalities to provide users with easy and standardized access to all major open-source solar resource databases.
-gsoc and pvlib logo</summary>
-    <category term="gsoc" label="gsoc"/>
-    <category term="openscience" label="open science"/>
-    <category term="pvlib" label="pvlib"/>
-    <category term="solar" label="solar"/>
-    <published>2021-06-10T00:00:00+00:00</published>
   </entry>
 </feed>
