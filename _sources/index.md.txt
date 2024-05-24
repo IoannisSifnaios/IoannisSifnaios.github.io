@@ -1,6 +1,6 @@
 ## Hello!
 
-I’m a postdoctoral researcher at the Technical University of Denmark (DTU), working on modeling and assessment of solar energy systems and energy storage.
+My name is Ioannis, and I’m a postdoctoral researcher at the Technical University of Denmark (DTU), working on the modeling and assessment of solar energy systems and energy storage.
 
 In this blog, I'll share my experience as a participant in the Google Summer Of Code (GSOC).
 
