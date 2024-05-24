@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-05-24T14:17:02.374724+00:00</updated>
+  <updated>2024-05-24T14:19:04.888961+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
@@ -25,23 +25,5 @@ gsoc and pvlib logo</summary>
     <category term="pvlib" label="pvlib"/>
     <category term="solar" label="solar"/>
     <published>2024-05-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ioannissifnaios.github.io/posts/gsoc_project_summary/</id>
-    <title>Summary of Google Summer of Code with pvlib</title>
-    <updated>2021-08-22T00:00:00+00:00</updated>
-    <author>
-      <name>Adam R. Jensen</name>
-    </author>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;The coding period of this year’s Google Summer of Code (GSoC) is officially over, and it’s time to take a step back and evaluate the experience. For those of you who might not know, I’ve been working on extending pvlib’s iotools for the past 10 weeks, which I described in this &lt;a class="reference internal" href="../posts/gsoc_project_intro/"&gt;&lt;span class="doc std std-doc"&gt;blog post&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;
-</content>
-    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_summary/"/>
-    <summary>The coding period of this year’s Google Summer of Code (GSoC) is officially over, and it’s time to take a step back and evaluate the experience. For those of you who might not know, I’ve been working on extending pvlib’s iotools for the past 10 weeks, which I described in this blog post.</summary>
-    <category term="gsoc" label="gsoc"/>
-    <category term="openscience" label="open science"/>
-    <category term="pvlib" label="pvlib"/>
-    <category term="solar" label="solar"/>
-    <published>2021-08-22T00:00:00+00:00</published>
   </entry>
 </feed>
