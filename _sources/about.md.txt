@@ -1,14 +1,10 @@
 # About me
 
-I’m a research scientist at the Technical University of Denmark (DTU), working on modeling and assessment of solar energy systems and the solar resource.
+I’m a postdoctoral researcher at the Technical University of Denmark (DTU), working on modeling and assessment of solar energy systems and energy storage.
 
-I work on a broad spectrum of projects, including solar resource assessment (model development, quality control, and validation), PV performance modeling, and testing of solar energy systems.
-
-Part of the reason I'm writing this blog is that I'm passionate about open science! This is also why I serve as a core developer of the open-source PV simulation software [pvlib](https://pvlib-python.readthedocs.io/) and develop online educational material including [AssessingSolar.org](https://AssessingSolar.org) and [SolarStations.org](https://SolarStations.org).
-
-Additionally, I am also the station manager for the solar radiation measurement station in Copenhagen. The station is one of two places in Denmark where all three irradiance components are measured.
+Part of the reason I'm writing this blog is my participation in the Google Summer Of Code, where I plan to contribute functions for calculating cell temperature and ambient conditions for floating PV systems to the open-source PV simulation software [pvlib](https://pvlib-python.readthedocs.io/). I sincerely believe that open-source science is the future of research, as it provides a great way to disseminate knowledge and enhance result reproducibility. For this reason, I have created the [PitStorages](https://github.com/PitStorages) repository on GitHub, which provides Python scripts and operation data for analyzing the operation of large-scale thermal energy storage systems. Additionally, I have been contributing to developing the website [SolarStations.org](https://SolarStations.org), which provides an overview of high-quality solar radiation monitoring stations worldwide, including metadata.
 
 ## Education
-* Ph.D. candidate, Technical University of Denmark, 2019-2022
-* M.Sc. in Sustainable Energy, Technical University of Denmark, 2016-2018
-* B.A.Sc. in Mechanical Engineering, Aarhus University, 2013-2016
+* Ph.D. candidate, Technical University of Denmark, 2020-2023
+* M.Sc. in Sustainable Energy, Technical University of Denmark, 2015-2017
+* B.Sc. in Physics, National and Kapodistrian University of Athens, 2009-2014
