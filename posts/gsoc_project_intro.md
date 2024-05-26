@@ -17,7 +17,7 @@ Google Summer of Code is a global, online program aiming to bring new contributo
 
 I am lucky enough to be mentored by two of the core pvlib developers, [Adam R. Jensen](https://github.com/AdamRJensen) and [Kevin Anderson](https://github.com/kandersolar), who I would like to thank for the time they will dedicate into this project. The plan is to interact with them on a weekly basis, trying to learn as much as possible! 
 
-If you're interested, you can find my official GSoC project abstract [here](https://summerofcode.withgoogle.com/myprojects/details/Z32UN1Qx).
+If you're interested, you can find my official GSoC project abstract [here](https://summerofcode.withgoogle.com/programs/2024/projects/Z32UN1Qx).
 
 ## What’s next?
 My plan is to post my progress on the project weekly. So, if you are interested in modeling floating PV, stay tuned!
