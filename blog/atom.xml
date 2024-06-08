@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-06-08T19:57:15.588789+00:00</updated>
+  <updated>2024-06-08T20:03:02.854694+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
@@ -13,11 +13,11 @@
     <author>
       <name>Ioannis Sifnaios</name>
     </author>
-    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the whole introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help every time I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!&lt;/p&gt;
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help whenever I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!&lt;/p&gt;
 &lt;/p&gt;
 </content>
     <link href="https://ioannissifnaios.github.io/posts/gsoc_weeks_1_and_2/"/>
-    <summary>So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the whole introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help every time I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!</summary>
+    <summary>So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help whenever I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!</summary>
     <category term="github" label="github"/>
     <category term="gsoc" label="gsoc"/>
     <category term="openscience" label="open science"/>
