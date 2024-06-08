@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-06-08T20:03:02.854694+00:00</updated>
+  <updated>2024-06-08T20:06:02.596378+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
   <entry>
     <id>https://ioannissifnaios.github.io/posts/gsoc_weeks_1_and_2/</id>
-    <title>Google Summer Of Code 2024</title>
+    <title>Google Summer Of Code 2024 - Weeks 1 and 2</title>
     <updated>2024-06-08T00:00:00+00:00</updated>
     <author>
       <name>Ioannis Sifnaios</name>
