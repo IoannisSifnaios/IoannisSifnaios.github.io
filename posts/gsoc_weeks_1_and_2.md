@@ -1,4 +1,4 @@
-# Google Summer Of Code 2024
+# Google Summer Of Code 2024 - Weeks 1 and 2
 ```{post} 2024-06-08
 :author: Ioannis Sifnaios
 :tags: pvlib, github, open science, gsoc
@@ -20,4 +20,4 @@ Ok, so maybe my post so far could be titled "An Ode to GitHub", but this is not 
 
 So, my first PR was adding a function that calculates the [albedo for water bodies](https://github.com/pvlib/pvlib-python/pull/2079). Such a function can estimate the amount of irradiance reflected from the water surface when photovoltaics are placed on water (aka floating PV). Now, I am waiting for the review from the pvlib maintainers. Fingers crossed!
 
-Stay tuned for updates!
+The progress of my project is described in [this issue](https://github.com/pvlib/pvlib-python/issues/2068). Stay tuned for updates!
