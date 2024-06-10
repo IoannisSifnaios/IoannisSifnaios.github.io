@@ -66,6 +66,7 @@ html_sidebars = {
             #'postcard.html', 'navigation.html',
             'recentposts.html', #'tagcloud.html',
             #'categories.html',  'archives.html',
+            #'searchbox.html',
             ],
     }
 
