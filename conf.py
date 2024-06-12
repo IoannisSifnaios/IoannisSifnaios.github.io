@@ -152,8 +152,8 @@ html_title = 'Blog'
 # documentation.
 html_theme_options = {
   "github_url": "https://github.com/ioannissifnaios/",
-  "navbar_end": ["navbar-icon-links.html", "search-field.html"],
-  "search_bar_text": "Search this site...",  # defaults to "Search the docs..."
+  "navbar_end": ["navbar-icon-links.html"] #, "search-field.html"],
+  #"search_bar_text": "Search this site...",  # defaults to "Search the docs..."
 }
 
 # The name of an image file (relative to this directory) to place at the top
