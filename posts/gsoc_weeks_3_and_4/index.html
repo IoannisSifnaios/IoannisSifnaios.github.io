@@ -8,19 +8,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<meta property="og:title" content="Google Summer Of Code 2024 - Weeks 1 and 2" />
+<meta property="og:title" content="Google Summer Of Code 2024 - Weeks 3 and 4" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="posts/gsoc_weeks_1_and_2/" />
+<meta property="og:url" content="posts/gsoc_weeks_3_and_4/" />
 <meta property="og:site_name" content="Blog" />
-<meta property="og:description" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit ch..." />
+<meta property="og:description" content="So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with GitHub and the structure of pvlib, which really ..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_weeks_1_and_2_3514a988.png" />
-<meta property="og:image:alt" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub..." />
-<meta name="description" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit ch..." />
+<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_weeks_3_and_4_51afc8ed.png" />
+<meta property="og:image:alt" content="So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with GitHub a..." />
+<meta name="description" content="So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with GitHub and the structure of pvlib, which really ..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Google Summer Of Code 2024 - Weeks 1 and 2 &#8212; Blog</title>
+    <title>Google Summer Of Code 2024 - Weeks 3 and 4 &#8212; Blog</title>
   
   
   
@@ -55,7 +55,7 @@
     <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/sphinx_highlight.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/gsoc_weeks_1_and_2';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/gsoc_weeks_3_and_4';</script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="author" title="About these documents" href="../../about/" />
     <link rel="index" title="Index" href="../../genindex/" />
@@ -328,7 +328,7 @@
   
   <i class="fa fa-calendar"></i>
   
-  <span>08 June 2024</span>
+  <span>24 June 2024</span>
   
 </h2>
 <ul>
@@ -401,8 +401,8 @@
   
   
   <li>
-    <a href="../gsoc_weeks_3_and_4/">
-      24 June - Google Summer Of Code 2024 - Weeks 3 and 4
+    <a href="../gsoc_weeks_1_and_2/">
+      08 June - Google Summer Of Code 2024 - Weeks 1 and 2
     </a>
   </li>
   
@@ -466,16 +466,46 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-<section id="google-summer-of-code-2024-weeks-1-and-2">
-<h1>Google Summer Of Code 2024 - Weeks 1 and 2<a class="headerlink" href="#google-summer-of-code-2024-weeks-1-and-2" title="Permalink to this heading">#</a></h1>
-<p>So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help whenever I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!</p>
-<p>One of the biggest struggles one has to go through to start contributing to open-source libraries (like <strong>pvlib</strong>) is working with <a class="reference external" href="https://github.com/">GitHub</a>. GitHub is a web-based platform primarily used for version control and collaborative software development. It provides tools for managing code repositories, tracking changes, and facilitating team collaboration. GitHub contains repositories, which are essentially storage spaces where your project’s files and the revision history of each file are stored.</p>
-<p>I can’t really say that I am a proficient user of GitHub after only two weeks, but using <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a> definitely gave some structure to my work and enabled me to start working with GitHub (even if I am not always 100% sure why or how things work)!</p>
-<p>One of the things that amazed me the most in GitHub was version control. GitHub uses Git (a version control system created by Linus Torvalds), allowing multiple developers to work on the same project simultaneously, track changes, and manage different code versions. To give you an idea of how powerful this tool is, try to imagine the following:</p>
-<p>We found a bug in the code, and we could trace it back to 2016 when the maintainers changed some functions, and some leftover parameters were no longer correct. And it was actually possible to find this incident and see the code being modified and how these parameters remained accidentally unchanged… MIND BLOWING!</p>
-<p>Having an academic background (and being quite bad at documentation - like most academics), I feel there is much to learn from a tool like GitHub. I think all my future projects should have a streamlined workflow and version control so that my future self doesn’t have to struggle if he ever needs to revisit them!</p>
-<p>Ok, so maybe my post so far could be titled “An Ode to GitHub”, but this is not the only thing I learned in the past two weeks. I actually submitted my first pull request (PR) to <strong>pvlib</strong>! A PR is essentially a proposal to merge code changes (or add functions) to a project. Of course, the downside of GitHub being so organized is that there is a very specific way to contribute to a repository. Luckily, the <strong>pvlib</strong> maintainers have created a guide called <a class="reference external" href="https://pvlib-python--2072.org.readthedocs.build/en/2072/contributing.html">Contributing</a>, which gives some guidelines on code contributions.</p>
-<p>So, my first PR was adding a function that calculates the <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2079">albedo for water bodies</a>. Such a function can estimate the amount of irradiance reflected from the water surface when photovoltaics are placed on water (aka floating PV). Now, I am waiting for the review from the pvlib maintainers. Fingers crossed!</p>
+<section id="google-summer-of-code-2024-weeks-3-and-4">
+<h1>Google Summer Of Code 2024 - Weeks 3 and 4<a class="headerlink" href="#google-summer-of-code-2024-weeks-3-and-4" title="Permalink to this heading">#</a></h1>
+<p>So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with <a class="reference external" href="https://github.com/">GitHub</a> and the structure of <a class="reference external" href="https://github.com/pvlib/pvlib-python">pvlib</a>, which really makes a difference in progressing with my GSoC tasks. Of course, the main reason is the incredible amount of help I have received from my mentors <a class="reference external" href="https://github.com/AdamRJensen">Adam R. Jensen</a> and <a class="reference external" href="https://github.com/kandersolar">Kevin Anderson</a>, but also from my fellow GSoC students <a class="reference external" href="https://github.com/echedey-ls">Echedey Luis</a> and <a class="reference external" href="https://github.com/RDaxini">Rajiv Daxini</a>. Overall, my GSoC experience proves just how strong the open science community is and how willing people are to assist even newbie programmers who have many questions.</p>
+<p>Over the last two weeks, I actually achieved my first big milestone; I got two of my PRs merged into the main pvlib code (yay!). The new release of pvlib (<a class="reference external" href="https://pvlib-python.readthedocs.io/en/stable/whatsnew.html">v0.11.0</a>) was announced on June 21$^{st}$, and I am so happy to see my name in the contributors’ list!</p>
+<p>One of the things I recently spent more time on was function tests. Honestly, it feels like this is where magic happens… I feel like the more sophisticated the topics, the less intuitive the commands are! So, I can’t really say that I understand exactly why things are working, but they do! Thus, I will try to share what I’ve understood so far…</p>
+<p>Pvlib’s tests are done using pytest. Pytest is a popular testing framework for Python that allows developers to write simple and scalable test cases for their code. It provides a robust set of tools to ensure code quality and reliability. Pytest can handle everything from simple unit tests to complex functional and integration tests. So far, I have only used fixtures and parametrized tests.</p>
+<p>Fixtures in pytest are functions that can set up the necessary state or context for tests, making it easier to manage setup and teardown tasks. They are reusable and can be used to provide a consistent test environment. For example, in the code below, I used fixtures to define a reusable setup function that can be used across multiple test functions, thus making the test code cleaner and more modular.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
+<span class="k">def</span> <span class="nf">times</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">date_range</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="s2">&quot;2015-01-01 00:00&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2015-01-07 00:00&quot;</span><span class="p">,</span> <span class="n">freq</span><span class="o">=</span><span class="s2">&quot;1d&quot;</span><span class="p">)</span>
+
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
+<span class="k">def</span> <span class="nf">air_temps</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="n">times</span><span class="p">)</span>
+
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
+<span class="k">def</span> <span class="nf">water_temps_expected</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mf">1.25</span><span class="p">,</span> <span class="mf">6.875</span><span class="p">,</span> <span class="mf">16.25</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mf">27.5</span><span class="p">,</span> <span class="mi">35</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="n">times</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_stream_temperature_stefan_ndarray</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">temp_air</span><span class="o">=</span><span class="n">air_temps</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">())</span>
+    <span class="n">assert_allclose</span><span class="p">(</span><span class="n">water_temps_expected</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">result</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_stream_temperature_stefan_series</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">temp_air</span><span class="o">=</span><span class="n">air_temps</span><span class="p">)</span>
+    <span class="n">assert_series_equal</span><span class="p">(</span><span class="n">water_temps_expected</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Apart from fixtures, I also used parameterized tests. Parametrized tests in pytest allow you to run a single test function with multiple sets of parameters, enhancing your ability to efficiently test different inputs and scenarios. This helps in reducing redundancy and improving test coverage. In the example below, I check if passing the value on the left (e.g., -5) returns the value on the right (e.g., 1.25).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s1">&#39;air_temp,water_temp&#39;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="p">(</span><span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">),</span>
+    <span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mf">1.25</span><span class="p">),</span>
+    <span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">35</span><span class="p">),</span>
+<span class="p">])</span>
+<span class="k">def</span> <span class="nf">test_stream_temperature_stefan</span><span class="p">(</span><span class="n">air_temp</span><span class="p">,</span> <span class="n">water_temp</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">air_temp</span><span class="p">)</span>
+    <span class="n">assert_allclose</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">water_temp</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Tests are used to ensure that the functions that we add to pvlib work as expected. It is thus crucial to include all “extreme” cases that could occur in the tests and test potential warning and error messages.</p>
 <p>The progress of my project is described in <a class="reference external" href="https://github.com/pvlib/pvlib-python/issues/2068">this issue</a>. Stay tuned for updates!</p>
 </section>
 
@@ -488,24 +518,16 @@
   <span class="ablog__prev">
     
     
-    <a href="../gsoc_project_intro/">
+    <a href="../gsoc_weeks_1_and_2/">
       
       <i class="fa fa-arrow-circle-left"></i>
       
-      <span>Google Summer Of Code 2024</span>
+      <span>Google Summer Of Code 2024 - Weeks 1 and 2</span>
     </a>
     
   </span>
   <span class="ablog__spacer">&nbsp;</span>
   <span class="ablog__next">
-    
-    
-    <a href="../gsoc_weeks_3_and_4/">
-      <span>Google Summer Of Code 2024 - Weeks 3 and 4</span>
-      
-      <i class="fa fa-arrow-circle-right" ></i>
-      
-    </a>
     
   </span>
 </div>
@@ -536,7 +558,7 @@
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../_sources/posts/gsoc_weeks_1_and_2.md.txt">
+    <a href="../../_sources/posts/gsoc_weeks_3_and_4.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

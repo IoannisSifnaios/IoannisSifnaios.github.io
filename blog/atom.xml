@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-06-12T15:53:30.873319+00:00</updated>
+  <updated>2024-06-24T21:28:46.725484+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
+  <entry>
+    <id>https://ioannissifnaios.github.io/posts/gsoc_weeks_3_and_4/</id>
+    <title>Google Summer Of Code 2024 - Weeks 3 and 4</title>
+    <updated>2024-06-24T00:00:00+00:00</updated>
+    <author>
+      <name>Ioannis Sifnaios</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with &lt;a class="reference external" href="https://github.com/"&gt;GitHub&lt;/a&gt; and the structure of &lt;a class="reference external" href="https://github.com/pvlib/pvlib-python"&gt;pvlib&lt;/a&gt;, which really makes a difference in progressing with my GSoC tasks. Of course, the main reason is the incredible amount of help I have received from my mentors &lt;a class="reference external" href="https://github.com/AdamRJensen"&gt;Adam R. Jensen&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/kandersolar"&gt;Kevin Anderson&lt;/a&gt;, but also from my fellow GSoC students &lt;a class="reference external" href="https://github.com/echedey-ls"&gt;Echedey Luis&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/RDaxini"&gt;Rajiv Daxini&lt;/a&gt;. Overall, my GSoC experience proves just how strong the open science community is and how willing people are to assist even newbie programmers who have many questions.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://ioannissifnaios.github.io/posts/gsoc_weeks_3_and_4/"/>
+    <summary>So GSoC goes on strong, and almost one month has passed since the start of the coding period! I have to admit that I feel much more comfortable with GitHub and the structure of pvlib, which really makes a difference in progressing with my GSoC tasks. Of course, the main reason is the incredible amount of help I have received from my mentors Adam R. Jensen and Kevin Anderson, but also from my fellow GSoC students Echedey Luis and Rajiv Daxini. Overall, my GSoC experience proves just how strong the open science community is and how willing people are to assist even newbie programmers who have many questions.</summary>
+    <category term="github" label="github"/>
+    <category term="gsoc" label="gsoc"/>
+    <category term="openscience" label="open science"/>
+    <category term="pvlib" label="pvlib"/>
+    <published>2024-06-24T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://ioannissifnaios.github.io/posts/gsoc_weeks_1_and_2/</id>
     <title>Google Summer Of Code 2024 - Weeks 1 and 2</title>
