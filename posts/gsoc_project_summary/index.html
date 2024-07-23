@@ -8,19 +8,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<meta property="og:title" content="Google Summer Of Code 2024 - Weeks 1 and 2" />
+<meta property="og:title" content="Google Summer Of Code 2024 - Project summary" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="posts/gsoc_weeks_1_and_2/" />
+<meta property="og:url" content="posts/gsoc_project_summary/" />
 <meta property="og:site_name" content="Blog" />
-<meta property="og:description" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit ch..." />
+<meta property="og:description" content="Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in this pvlib issue, which presents all the merged and on..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_weeks_1_and_2_3514a988.png" />
-<meta property="og:image:alt" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub..." />
-<meta name="description" content="So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit ch..." />
+<meta property="og:image" content="/_images/social_previews/summary_posts_gsoc_project_summary_987e7544.png" />
+<meta property="og:image:alt" content="Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in this pvlib iss..." />
+<meta name="description" content="Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in this pvlib issue, which presents all the merged and on..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Google Summer Of Code 2024 - Weeks 1 and 2 &#8212; Blog</title>
+    <title>Google Summer Of Code 2024 - Project summary &#8212; Blog</title>
   
   
   
@@ -55,7 +55,7 @@
     <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/sphinx_highlight.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/gsoc_weeks_1_and_2';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'posts/gsoc_project_summary';</script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="author" title="About these documents" href="../../about/" />
     <link rel="index" title="Index" href="../../genindex/" />
@@ -330,7 +330,7 @@
   
   <i class="fa fa-calendar"></i>
   
-  <span>08 June 2024</span>
+  <span>23 July 2024</span>
   
 </h2>
 <ul>
@@ -403,12 +403,6 @@
   
   
   <li>
-    <a href="../gsoc_project_summary/">
-      23 July - Google Summer Of Code 2024 - Project summary
-    </a>
-  </li>
-  
-  <li>
     <a href="../gsoc_weeks_5_and_6/">
       09 July - Google Summer Of Code 2024 - Weeks 5 and 6
     </a>
@@ -417,6 +411,12 @@
   <li>
     <a href="../gsoc_weeks_3_and_4/">
       24 June - Google Summer Of Code 2024 - Weeks 3 and 4
+    </a>
+  </li>
+  
+  <li>
+    <a href="../gsoc_weeks_1_and_2/">
+      08 June - Google Summer Of Code 2024 - Weeks 1 and 2
     </a>
   </li>
   
@@ -480,17 +480,33 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-<section id="google-summer-of-code-2024-weeks-1-and-2">
-<h1>Google Summer Of Code 2024 - Weeks 1 and 2<a class="headerlink" href="#google-summer-of-code-2024-weeks-1-and-2" title="Permalink to this heading">#</a></h1>
-<p>So, the coding period officially started on May 27th, and the first two weeks of GSoC have already passed! As with everything new, the introduction to GiHub and open-source coding has been a bit challenging, but luckily, the mentors were here to help whenever I got stuck! I feel like I learned so many things these past two weeks that I have a bit of a hard time organizing my thoughts in a post that makes sense… But I will give it a shot!</p>
-<p>One of the biggest struggles one has to go through to start contributing to open-source libraries (like <strong>pvlib</strong>) is working with <a class="reference external" href="https://github.com/">GitHub</a>. GitHub is a web-based platform primarily used for version control and collaborative software development. It provides tools for managing code repositories, tracking changes, and facilitating team collaboration. GitHub contains repositories, which are essentially storage spaces where your project’s files and the revision history of each file are stored.</p>
-<p>I can’t really say that I am a proficient user of GitHub after only two weeks, but using <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a> definitely gave some structure to my work and enabled me to start working with GitHub (even if I am not always 100% sure why or how things work)!</p>
-<p>One of the things that amazed me the most in GitHub was version control. GitHub uses Git (a version control system created by Linus Torvalds), allowing multiple developers to work on the same project simultaneously, track changes, and manage different code versions. To give you an idea of how powerful this tool is, try to imagine the following:</p>
-<p>We found a bug in the code, and we could trace it back to 2016 when the maintainers changed some functions, and some leftover parameters were no longer correct. And it was actually possible to find this incident and see the code being modified and how these parameters remained accidentally unchanged… MIND BLOWING!</p>
-<p>Having an academic background (and being quite bad at documentation - like most academics), I feel there is much to learn from a tool like GitHub. I think all my future projects should have a streamlined workflow and version control so that my future self doesn’t have to struggle if he ever needs to revisit them!</p>
-<p>Ok, so maybe my post so far could be titled “An Ode to GitHub”, but this is not the only thing I learned in the past two weeks. I actually submitted my first pull request (PR) to <strong>pvlib</strong>! A PR is essentially a proposal to merge code changes (or add functions) to a project. Of course, the downside of GitHub being so organized is that there is a very specific way to contribute to a repository. Luckily, the <strong>pvlib</strong> maintainers have created a guide called <a class="reference external" href="https://pvlib-python--2072.org.readthedocs.build/en/2072/contributing.html">Contributing</a>, which gives some guidelines on code contributions.</p>
-<p>So, my first PR was adding a function that calculates the <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2079">albedo for water bodies</a>. Such a function can estimate the amount of irradiance reflected from the water surface when photovoltaics are placed on water (aka floating PV). Now, I am waiting for the review from the pvlib maintainers. Fingers crossed!</p>
-<p>The progress of my project is described in <a class="reference external" href="https://github.com/pvlib/pvlib-python/issues/2068">this issue</a>. Stay tuned for updates!</p>
+<section id="google-summer-of-code-2024-project-summary">
+<h1>Google Summer Of Code 2024 - Project summary<a class="headerlink" href="#google-summer-of-code-2024-project-summary" title="Permalink to this heading">#</a></h1>
+<p>Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in <a class="reference external" href="https://github.com/pvlib/pvlib-python/issues/2068">this pvlib issue</a>, which presents all the merged and ongoing pull requests related to my project.</p>
+<section id="personal-reflection">
+<h2>Personal reflection<a class="headerlink" href="#personal-reflection" title="Permalink to this heading">#</a></h2>
+<p>Following the pattern of the GSoC’s final evaluation, the first thing to do is to check if the original project goals were fulfilled:</p>
+<div class="admonition-original-project-outline admonition">
+<p class="admonition-title">Original project outline</p>
+<p>This project aims to extend pvlib’s capabilities, enabling accurate modeling of floating PV panels. The following will be added:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2079">Estimation of albedo for water bodies</a></p></li>
+<li><p><a class="reference external" href="https://github.com/pvlib/pvlib-python/issues/2118">Wind speed calculation at module height</a></p></li>
+<li><p><a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2110">Gallery example of the expansion of the Faiman expression for floating PV</a></p></li>
+<li><p><a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2075">Lindholm model for calculating floating PV module temperature</a></p></li>
+</ul>
+</div>
+<p>The GitHub link connected to each of these goals shows that the original project goals have been fulfilled! One interesting thing I learned was the selection procedure for adding something to pvlib. As someone who works in academia and is involved in publishing, I found it very interesting to see how important it is to have fully documented every part of your work so other users can replicate and evaluate it. Though it can be a bit frustrating to some authors, a model or function will never be included in pvlib if every step of it is not fully documented and openly described. This led to some minor changes to my original plan, but luckily, they were quickly adjusted in agreement with my mentors.</p>
+<p>However, I did not just strictly follow the original project outline. I was very happily involved in some more maintenance-related tasks, like <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2111">fixing broken links in some gallery examples</a>, <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2080">correcting the accuracy of some test functions</a>, and <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2112">reviewing the documentation after the upgrade to a newer version of sphinx</a>. Last, I added a function that estimates the <a class="reference external" href="https://github.com/pvlib/pvlib-python/pull/2104">water temperature</a> using the ambient temperature as an input.</p>
+<p>Overall, during the GSoC period, I made 30 contributions to pvlib (i.e., commits, pull requests, code review, and issues), contributing to 1387 lines of new code  - you can see a complete list of my commits to pvlib <a class="reference external" href="https://github.com/pvlib/pvlib-python/commits?author=IoannisSifnaios">here</a>.</p>
+<p>Looking back, I think I can confidently say that this project was a great success! It has been a very inspiring process, where I’ve written a lot of code and learned more than I ever could have imagined. Now, all I have to do is put my newly acquired knowledge to good use and keep contributing to pvlib and other open-source libraries!</p>
+</section>
+<section id="acknowledgments">
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this heading">#</a></h2>
+<p>A huge thanks goes to my mentors <a class="reference external" href="https://github.com/AdamRJensen">Adam Jensen</a> and <a class="reference external" href="https://github.com/kandersolar">Kevin Anderson</a>, who encouraged me to apply to GSoC and spent countless hours on my project. Their eagerness to help when I got stuck and their devotion to the project has truly been inspiring and really made GSoC a very fun experience for me!</p>
+<p>Also, I was very lucky to have two more GSoC students working with pvlib during the same period, <a class="reference external" href="https://github.com/echedey-ls">Echedey Luis</a> and <a class="reference external" href="https://github.com/RDaxini">Rajiv (Dax) Daxini</a>. This enabled reviewing each other’s work, giving feedback to each other, and sharing our questions and frustrations; making GSoC an even more enjoyable experience!</p>
+<p>Last, I would like to thank all the pvlib maintainers that, although they were not part of my project, they still gave valuable comments and feedback and increased my learning!</p>
+</section>
 </section>
 
 <div class="section ablog__blog_comments">
@@ -502,24 +518,16 @@
   <span class="ablog__prev">
     
     
-    <a href="../gsoc_project_intro/">
+    <a href="../gsoc_weeks_5_and_6/">
       
       <i class="fa fa-arrow-circle-left"></i>
       
-      <span>Google Summer Of Code 2024</span>
+      <span>Google Summer Of Code 2024 - Weeks 5 and 6</span>
     </a>
     
   </span>
   <span class="ablog__spacer">&nbsp;</span>
   <span class="ablog__next">
-    
-    
-    <a href="../gsoc_weeks_3_and_4/">
-      <span>Google Summer Of Code 2024 - Weeks 3 and 4</span>
-      
-      <i class="fa fa-arrow-circle-right" ></i>
-      
-    </a>
     
   </span>
 </div>
@@ -548,9 +556,22 @@
 
 
   <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-reflection">Personal reflection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../_sources/posts/gsoc_weeks_1_and_2.md.txt">
+    <a href="../../_sources/posts/gsoc_project_summary.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

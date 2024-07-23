@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ioannissifnaios.github.io/</id>
   <title>Blog</title>
-  <updated>2024-07-09T15:31:36.874605+00:00</updated>
+  <updated>2024-07-23T13:58:56.415546+00:00</updated>
   <link href="https://ioannissifnaios.github.io/"/>
   <link href="https://ioannissifnaios.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.io/" version="0.11.10">ABlog</generator>
+  <entry>
+    <id>https://ioannissifnaios.github.io/posts/gsoc_project_summary/</id>
+    <title>Google Summer Of Code 2024 - Project summary</title>
+    <updated>2024-07-23T00:00:00+00:00</updated>
+    <author>
+      <name>Ioannis Sifnaios</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in &lt;a class="reference external" href="https://github.com/pvlib/pvlib-python/issues/2068"&gt;this pvlib issue&lt;/a&gt;, which presents all the merged and ongoing pull requests related to my project.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://ioannissifnaios.github.io/posts/gsoc_project_summary/"/>
+    <summary>Going through the last week of the Google Summer Of Code 2024, this post is a summary of my experience. An overview of my work can be found in this pvlib issue, which presents all the merged and ongoing pull requests related to my project.</summary>
+    <category term="github" label="github"/>
+    <category term="gsoc" label="gsoc"/>
+    <category term="openscience" label="open science"/>
+    <category term="pvlib" label="pvlib"/>
+    <published>2024-07-23T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://ioannissifnaios.github.io/posts/gsoc_weeks_5_and_6/</id>
     <title>Google Summer Of Code 2024 - Weeks 5 and 6</title>
