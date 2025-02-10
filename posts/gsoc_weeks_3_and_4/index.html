@@ -488,22 +488,22 @@
 <p>Pvlib’s tests are done using pytest. Pytest is a popular testing framework for Python that allows developers to write simple and scalable test cases for their code. It provides a robust set of tools to ensure code quality and reliability. Pytest can handle everything from simple unit tests to complex functional and integration tests. So far, I have only used fixtures and parametrized tests.</p>
 <p>Fixtures in pytest are functions that can set up the necessary state or context for tests, making it easier to manage setup and teardown tasks. They are reusable and can be used to provide a consistent test environment. For example, in the code below, I used fixtures to define a reusable setup function that can be used across multiple test functions, thus making the test code cleaner and more modular.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
-<span class="k">def</span> <span class="nf">times</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">times</span><span class="p">():</span>
     <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">date_range</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="s2">&quot;2015-01-01 00:00&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;2015-01-07 00:00&quot;</span><span class="p">,</span> <span class="n">freq</span><span class="o">=</span><span class="s2">&quot;1d&quot;</span><span class="p">)</span>
 
 <span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
-<span class="k">def</span> <span class="nf">air_temps</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">air_temps</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="o">-</span><span class="mi">15</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="n">times</span><span class="p">)</span>
 
 <span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
-<span class="k">def</span> <span class="nf">water_temps_expected</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">water_temps_expected</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="mf">1.25</span><span class="p">,</span> <span class="mf">6.875</span><span class="p">,</span> <span class="mf">16.25</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mf">27.5</span><span class="p">,</span> <span class="mi">35</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="n">times</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">test_stream_temperature_stefan_ndarray</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test_stream_temperature_stefan_ndarray</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">temp_air</span><span class="o">=</span><span class="n">air_temps</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">())</span>
     <span class="n">assert_allclose</span><span class="p">(</span><span class="n">water_temps_expected</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">result</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">test_stream_temperature_stefan_series</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test_stream_temperature_stefan_series</span><span class="p">(</span><span class="n">air_temps</span><span class="p">,</span> <span class="n">water_temps_expected</span><span class="p">):</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">temp_air</span><span class="o">=</span><span class="n">air_temps</span><span class="p">)</span>
     <span class="n">assert_series_equal</span><span class="p">(</span><span class="n">water_temps_expected</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
 </pre></div>
@@ -514,7 +514,7 @@
     <span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mf">1.25</span><span class="p">),</span>
     <span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">35</span><span class="p">),</span>
 <span class="p">])</span>
-<span class="k">def</span> <span class="nf">test_stream_temperature_stefan</span><span class="p">(</span><span class="n">air_temp</span><span class="p">,</span> <span class="n">water_temp</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test_stream_temperature_stefan</span><span class="p">(</span><span class="n">air_temp</span><span class="p">,</span> <span class="n">water_temp</span><span class="p">):</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">floating</span><span class="o">.</span><span class="n">stream_temperature_stefan</span><span class="p">(</span><span class="n">air_temp</span><span class="p">)</span>
     <span class="n">assert_allclose</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">water_temp</span><span class="p">)</span>
 </pre></div>
